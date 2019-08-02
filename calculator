@@ -29,7 +29,7 @@ def calculate():
     if operation == '*':
         result = operand1 * operand2
     label.configure(text=str(result))
-    def click(text):
+def click(text):
     global activeStr
     global stack
     if text == 'CE':
